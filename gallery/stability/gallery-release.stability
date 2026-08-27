@@ -575,6 +575,12 @@ private fun io.github.composefluent.gallery.screen.collections.CardExpanderItemS
   params:
 
 @Composable
+private fun io.github.composefluent.gallery.screen.collections.CheckboxTreeViewItemSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
 private fun io.github.composefluent.gallery.screen.collections.ClickableCardExpanderItemSample(enabled: kotlin.Boolean): kotlin.Unit
   skippable: true
   restartable: true
@@ -650,6 +656,27 @@ private fun io.github.composefluent.gallery.screen.collections.MultiSelectGridVi
   params:
 
 @Composable
+private fun io.github.composefluent.gallery.screen.collections.StandardTreeViewItemSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.collections.TreeViewItemOptionsSample(showCheckbox: kotlin.Boolean, showIcon: kotlin.Boolean, enabled: kotlin.Boolean): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+    - showCheckbox: STABLE (primitive type)
+    - showIcon: STABLE (primitive type)
+    - enabled: STABLE (primitive type)
+
+@Composable
+public fun io.github.composefluent.gallery.screen.collections.TreeViewItemScreen(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
 private fun io.github.composefluent.gallery.screen.collections.VerticalFlipViewSample(): kotlin.Unit
   skippable: true
   restartable: true
@@ -675,6 +702,54 @@ public fun io.github.composefluent.gallery.screen.datetime.CalendarScreen(): kot
 
 @Composable
 private fun io.github.composefluent.gallery.screen.datetime.CalendarViewSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.datetime.CustomDatePickerFormatSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.datetime.CustomDatePickerWidthSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+public fun io.github.composefluent.gallery.screen.datetime.DatePickerScreen(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.datetime.DefaultDatePickerSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.datetime.TimePicker12Sample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.datetime.TimePicker24Sample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.datetime.TimePickerMinuteIncrementSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+public fun io.github.composefluent.gallery.screen.datetime.TimePickerScreen(): kotlin.Unit
   skippable: true
   restartable: true
   params:
@@ -892,6 +967,12 @@ private fun io.github.composefluent.gallery.screen.design.typographyList(): kotl
   params:
 
 @Composable
+private fun io.github.composefluent.gallery.screen.dialogs.AdaptiveTeachingTipSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
 private fun io.github.composefluent.gallery.screen.dialogs.BasicContentDialogSample(): kotlin.Unit
   skippable: true
   restartable: true
@@ -902,6 +983,23 @@ private fun io.github.composefluent.gallery.screen.dialogs.BasicFlyoutSample(): 
   skippable: true
   restartable: true
   params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.dialogs.CenteredTeachingTipSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.dialogs.ConfigurableTeachingTipSlotsSample(showIcon: kotlin.Boolean, showHero: kotlin.Boolean, showAction: kotlin.Boolean, showSecondaryAction: kotlin.Boolean, showCloseAction: kotlin.Boolean): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+    - showIcon: STABLE (primitive type)
+    - showHero: STABLE (primitive type)
+    - showAction: STABLE (primitive type)
+    - showSecondaryAction: STABLE (primitive type)
+    - showCloseAction: STABLE (primitive type)
 
 @Composable
 public fun io.github.composefluent.gallery.screen.dialogs.ContentDialogScreen(): kotlin.Unit
@@ -917,6 +1015,32 @@ public fun io.github.composefluent.gallery.screen.dialogs.FlyoutScreen(): kotlin
 
 @Composable
 private fun io.github.composefluent.gallery.screen.dialogs.LocalContentDialogSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.dialogs.MultipleImageTeachingTipsSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.dialogs.TargetedTeachingTipSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.dialogs.TeachingTipMarker(label: kotlin.String, modifier: androidx.compose.ui.Modifier): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+    - label: STABLE (String is immutable)
+    - modifier: STABLE (marked @Stable or @Immutable)
+
+@Composable
+public fun io.github.composefluent.gallery.screen.dialogs.TeachingTipScreen(): kotlin.Unit
   skippable: true
   restartable: true
   params:
