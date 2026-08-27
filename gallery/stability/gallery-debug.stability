@@ -405,6 +405,12 @@ private fun io.github.composefluent.gallery.screen.basicinput.NavigateUriHyperli
     - enabled: STABLE (primitive type)
 
 @Composable
+private fun io.github.composefluent.gallery.screen.basicinput.ParentCheckBoxSample(): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+
+@Composable
 private fun io.github.composefluent.gallery.screen.basicinput.PillButtonSample(enabled: kotlin.Boolean): kotlin.Unit
   skippable: true
   restartable: true
@@ -523,6 +529,14 @@ private fun io.github.composefluent.gallery.screen.basicinput.SubtleButtonSample
   skippable: true
   restartable: true
   params:
+
+@Composable
+private fun io.github.composefluent.gallery.screen.basicinput.ThreeStateCheckBoxSample(toggleableState: androidx.compose.ui.state.ToggleableState, onToggleableStateChanged: kotlin.Function1<androidx.compose.ui.state.ToggleableState, kotlin.Unit>): kotlin.Unit
+  skippable: true
+  restartable: true
+  params:
+    - toggleableState: STABLE (class with no mutable properties)
+    - onToggleableStateChanged: STABLE (function type)
 
 @Composable
 public fun io.github.composefluent.gallery.screen.basicinput.ToggleButtonScreen(): kotlin.Unit
