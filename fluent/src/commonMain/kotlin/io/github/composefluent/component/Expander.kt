@@ -353,13 +353,13 @@ internal fun ExpanderItemContent(
         } else {
             Spacer(modifier = Modifier.width(16.dp))
         }
-        Column(modifier = Modifier.padding(vertical = 13.dp)) {
+        // Weighted so wrapping heading/caption text cannot consume the trailing slot.
+        Column(modifier = Modifier.padding(vertical = 13.dp).weight(1f)) {
             heading()
             ProvideTextStyle(FluentTheme.typography.caption.copy(captionTextColor)) {
                 caption()
             }
         }
-        Spacer(modifier = Modifier.weight(1f).height(1.dp))
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(end = 8.dp)
